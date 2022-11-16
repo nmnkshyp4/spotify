@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+header li{
+    display: inline-block;
+    padding: 0px 10px;
+}
+header li a:hover{
+    color: rgb(17, 245, 17);
+}
+header li a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+}
+.sec1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #9b1dcb;
+}
+.sec2{
+    margin-top: 20vh;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    max-width: 1200px;
+    width: 75%;
+    margin: auto;
+}
+.top{
+    margin-top: 30px;
+}
+.bottom{
+    margin-bottom: 20px;
+}
+.sec3{
+    background-color: #951bce;
+    height: 90vh;
+    margin-top: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+.footer-area{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+footer{
+    padding: 20px 0px;
+    background-color: black;
+}
+.container1{
+    margin-top: 40px;
+    width: 65%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.container1 li{
+    list-style: none;
+}
+.container1 li:hover{
+    color: green;
+}
+.container2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    width: 20%;
+}
+.fa-2x:hover{
+    color: green;
+}
+.sec4 h1{
+    text-align: center;
+    margin: 40px 0px;
+    font-size: 35px;
+}
+.sec4 .ques{
+    margin: 10px 50px;
+    margin-bottom: 50px;
+}
+.ques1,.ques2,.ques3,.ques4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 20px;
+}
+.hidd1,.hidd2,.hidd3,.hidd4{
+    padding: 20px;
+    font-size: 17px;
+    display: none;
+    background-color: rgba(128, 128, 128, 0.315);
+}
+.sec5{
+    height: 90vh;
+    background-image: linear-gradient(rgb(207, 78, 207),rgb(68, 68, 216));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+}
+button{
+    padding: 10px 15px;
+    border-radius: 15px;
+    border: 0;
+    margin-top: 20px;
+}
+.sec5 button a{
+    text-decoration: none;
+    color: black;
+}
+.sec1 button a{
+    text-decoration: none;
+    color: black;
+}
